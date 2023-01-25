@@ -24,14 +24,14 @@ class HomeBody extends StatelessWidget {
               children: <Widget>[
                 Text(
                   'Your Favorite',
-                  style: Theme.of(context).textTheme.headline4!.copyWith(
+                  style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         fontWeight: FontWeight.w800,
                         color: Colors.white,
                       ),
                 ),
                 Text(
                   'Streams',
-                  style: Theme.of(context).textTheme.headline4!.copyWith(
+                  style: Theme.of(context).textTheme.headlineMedium!.copyWith(
                         fontWeight: FontWeight.w800,
                         color: primaryColor,
                       ),
